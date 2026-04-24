@@ -39,11 +39,13 @@ print(f"Estrellas del cúmulo: {len(df_cumulo)}")
 # índice de color
 df_cumulo['color'] = df_cumulo['BPmag'] - df_cumulo['RPmag']
 
-plt.figure(figsize=(6,8))
+plt.figure(figsize=(6,6))
 plt.scatter(df_cumulo['color'], df_cumulo['Gmag'], s=1, alpha=0.6)
 
 plt.xlabel('BP - RP (Color)')
 plt.ylabel('Gmag')
+plt.xlim(-1,3)
+plt.ylim(10,22)
 plt.title('Diagrama Color-Magnitud - Omega Centauri')
 
 # Se invierte el eje y
