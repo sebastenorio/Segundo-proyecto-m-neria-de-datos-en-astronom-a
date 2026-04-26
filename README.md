@@ -48,7 +48,13 @@ En este gráfico de dispersión se ve claramente cómo el movimiento de Omega Ce
 ![Gráfica de Movimiento Propio](Gráfica_1.png)
 
 ### Gráfica 2
-Ya con el filtro aplicado, se calculó el índice de color ($BP - RP$) y se graficó la Magnitud G invertida. El resultado es un diagrama mucho más limpio en el que se pueden distinguir sin tanto ruido las distintas etapas de vida de las estrellas del cúmulo.
+Ya con el filtro aplicado, se calculó el índice de color ($BP - RP$) y se graficó la Magnitud G invertida. 
+
+Lo importante aquí es comparar qué pasa antes y después del filtro. Sin aplicar el filtro en SQL, el diagrama HR aparece bastante desordenado, ya que incluye estrellas de la Vía Láctea que no pertenecen al cúmulo. Estas estrellas “intrusas” generan ruido y hacen difícil ver una estructura clara.
+
+Después de aplicar el filtro basado en movimiento propio, el diagrama cambia notablemente: la distribución se vuelve mucho más limpia y se empiezan a distinguir mejor las estructuras típicas como la secuencia principal y la rama gigante.
+
+Esto demuestra que el uso de SQL para filtrar por cinemática permite eliminar la contaminación de fondo y aislar una población estelar coherente.
 
 ![Diagrama Color-Magnitud](Gráfica_2.png)
 
