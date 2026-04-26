@@ -45,7 +45,7 @@ Para facilitar la ejecución de todo el flujo, se creó un script (`pipeline.sh`
 De esta forma, solo es necesario ejecutar:
 
 ```bash
-./run_pipeline.sh
+./pipeline.sh
 ```
 
 ---
