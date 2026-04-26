@@ -40,6 +40,18 @@ AND pmDE BETWEEN -9 AND -5
 ```
 ---
 
+## Ejecución del proyecto
+
+Para facilitar la ejecución de todo el flujo, se creó un script (`run_pipeline.sh`) que corre automáticamente todos los pasos: descarga de datos, creación de la base de datos y análisis.
+
+De esta forma, solo es necesario ejecutar:
+
+```bash
+./run_pipeline.sh
+```
+
+---
+
 ## Resultados
 
 ### Gráfica 1
