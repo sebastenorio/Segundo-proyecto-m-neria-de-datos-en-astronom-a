@@ -38,11 +38,9 @@ SELECT * FROM estrellas
 WHERE pmRA BETWEEN -6 AND -2 
 AND pmDE BETWEEN -9 AND -5
 ```
----
+### 4. Ejecución del proyecto
 
-## Ejecución del proyecto
-
-Para facilitar la ejecución de todo el flujo, se creó un script (`run_pipeline.sh`) que corre automáticamente todos los pasos: descarga de datos, creación de la base de datos y análisis.
+Para facilitar la ejecución de todo el flujo, se creó un script (`pipeline.sh`) que corre automáticamente todos los pasos: descarga de datos, creación de la base de datos y análisis.
 
 De esta forma, solo es necesario ejecutar:
 
